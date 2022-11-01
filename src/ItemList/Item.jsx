@@ -14,7 +14,7 @@ function Item(props) {
         <h3>{props.title}</h3>
         <p>${props.price}</p>
       </div>
-      <MyButton color="black">Ver mas</MyButton>
+      <MyButton color={props.color}>Ver mas</MyButton>
        
        
 
