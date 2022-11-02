@@ -1,10 +1,11 @@
 import React from 'react'
 import CartWiget from './CartWiget'
+import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav>
-    <ul>
+    <nav  className="nav-menu">
+    <ul className="nav-list">
         <li>
             <a href="/">
             <h2>Cabaña MG</h2>

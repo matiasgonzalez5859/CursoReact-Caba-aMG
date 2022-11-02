@@ -10,27 +10,19 @@ import NavBar from './componentes/NavBar/NavBar';
 
 function App() {
   
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <NavBar/>
-        <p>
-          Bienvenidos a cabaña MG. todo lo que buscas para tu campo
-        </p>
-      
-        
-        <ItemListContainer greeting="La genetica que buscas en un solo lugar" />
-        
-        
-        
-        
-        
-      
-        
-      </header>
-    </div>
-  );
+  
+    const styleH3 = { backgroundColor: "darkred", color: "white" };
+    let titulo = <h3 style={styleH3}>Bienvenido. todo lo que necesita tu campo en un solo lugar 🌾</h3>;
+  
+    return (
+      <>
+        <div className="App">
+          <NavBar />
+          {titulo}
+          <ItemListContainer />
+        </div>
+      </>
+    );
 }
 
 
