@@ -57,5 +57,66 @@ const products = [
       category: "vaquillonas de leche",
       imgurl: "/img/holanda.jpg",
     },
+    {
+      id: 8,
+      title: "Vaquillona Limousin",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "vaquillonas de Carne",
+      imgurl: "/img/limousin.jpg",
+    },
+    {
+      id: 9,
+      title: "Vaquillona Shorton",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "vaquillonas de Carne",
+      imgurl: "/img/shorton.jpg",
+    },
+    {
+      id: 10,
+      title: "Yeguas Criollas",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "Equinos",
+      imgurl: "/img/caballocriollo.jpg",
+    },
+    {
+      id: 11,
+      title: "Yeguas de paso peruano",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "Equinos",
+      imgurl: "/img/cabaperuano.jpg",
+    },
+    {
+      id: 12,
+      title: "Caballos Percherones",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "Equinos",
+      imgurl: "/img/percheron.jpg",
+    },
+    {
+      id: 13,
+      title: "Yeguas raza polo",
+      description:
+        "478",
+      price: 1499,
+      stock: 50,
+      category: "Equinos",
+      imgurl: "/img/yegua.polo.jpg",
+    },
+    
 ]
 export default products;
