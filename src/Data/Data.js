@@ -4,7 +4,7 @@ const products = [
       title: "Terneras Braford",
       price: 700,
       stock: 49,
-      category: "Terneras carne",
+      category: "Vacunos",
       imgurl: "./img/Braford-.jpg",
       description: "An apple mobile which is nothing like apple",
     },
@@ -15,7 +15,7 @@ const products = [
         "Vaquillonas lote 950",
       price: 899,
       stock: 34,
-      category: "Terneras carne",
+      category: "Vacunos",
       imgurl: "/img/brahman.jpg",
     },
     {
@@ -24,7 +24,7 @@ const products = [
       description: "Vaquillonas Brangus Coloradas lote 548",
       price: 280,
       stock: 123,
-      category: "Terneras Carne",
+      category: "Vacunos",
       imgurl: "/img/branguscolos.jpg",
     },
     {
@@ -34,7 +34,7 @@ const products = [
         "Lote 854",
       price: 499,
       stock: 32,
-      category: "Vaquillona de carne ",
+      category: "Vacunos ",
       imgurl: "/img/brangusovero.jpg",
     },
     {
@@ -44,7 +44,7 @@ const products = [
         "551 ",
       price: 1749,
       stock: 83,
-      category: "Vaquillona de carne",
+      category: "Vacunos",
       imgurl: "/img/criollas.jpg",
     },
     {
@@ -54,7 +54,7 @@ const products = [
         "478",
       price: 1499,
       stock: 50,
-      category: "vaquillonas de leche",
+      category: "Vacunos",
       imgurl: "/img/holanda.jpg",
     },
     {
@@ -64,7 +64,7 @@ const products = [
         "478",
       price: 1499,
       stock: 50,
-      category: "vaquillonas de Carne",
+      category: "Vacunos",
       imgurl: "/img/limousin.jpg",
     },
     {
@@ -74,7 +74,7 @@ const products = [
         "478",
       price: 1499,
       stock: 50,
-      category: "vaquillonas de Carne",
+      category: "Vacunos",
       imgurl: "/img/shorton.jpg",
     },
     {
@@ -116,6 +116,36 @@ const products = [
       stock: 50,
       category: "Equinos",
       imgurl: "/img/yegua.polo.jpg",
+    },
+    {
+      id: 14,
+      title: "Semillas de soja",
+      description:
+        "Las mejores semillas geneticamente eficaz",
+      price: 150,
+      stock: 50,
+      category: "Granos",
+      imgurl: "/img/soja.jpg",
+    },
+    {
+      id: 15,
+      title: "Semillas de trigo",
+      description:
+        "Los mejores granos de trigo geneticamente comprobados",
+      price: 1499,
+      stock: 50,
+      category: "Granos",
+      imgurl: "/img/trigo.jpg",
+    },
+    {
+      id: 16,
+      title: "Semillas de cebada",
+      description:
+        "Los mejores granos que tu campo necesita con genetica de primera",
+      price: 1499,
+      stock: 50,
+      category: "Granos",
+      imgurl: "/img/cebada.jpg",
     },
     
 ]
