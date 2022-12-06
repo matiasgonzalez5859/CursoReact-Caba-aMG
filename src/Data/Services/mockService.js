@@ -1,5 +1,7 @@
 import products from "../Data";
 
+
+
 function getItems(idCategory) {
   return new Promise((resolve) => {
     if (idCategory === undefined) {
@@ -30,5 +32,4 @@ export function getSingleItem(idParam) {
 }
 
 export default getItems;
-
 

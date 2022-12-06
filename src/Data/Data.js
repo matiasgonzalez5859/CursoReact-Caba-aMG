@@ -2,18 +2,18 @@ const products = [
     {
       id: 1,
       title: "Terneras Braford",
-      price: 700,
+      price: 550000,
       stock: 49,
       category: "Vacunos",
       imgurl: "./img/Braford-.jpg",
-      description: "An apple mobile which is nothing like apple",
+      description: "vaquillonas 856",
     },
     {
       id: 2,
       title: "Terneras Brahman",
       description:
         "Vaquillonas lote 950",
-      price: 899,
+      price: 750000,
       stock: 34,
       category: "Vacunos",
       imgurl: "/img/brahman.jpg",

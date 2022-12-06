@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useContext } from "react";
+import { cartContext } from "../../Context/cartContext";
 
-function CartWiget() {
+
+function CartWidget() {
+ 
+ const miContext = useContext(cartContext);
+
   return (
-    <div>🛒</div>
-  )
+    <>
+     <h1>🛒</h1>
+     <span style={{ color: "white" }}>{miContext.itemsInCart()}</span>
+    </>
+  );
 }
 
-export default CartWiget
+export default CartWidget;
